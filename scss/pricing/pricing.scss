@@ -1,0 +1,65 @@
+.pricing-header-section {
+  margin-top: 6rem;
+  padding: 2rem 0;
+}
+
+.pricing-section {
+  .price-card {
+    border-radius: 0.25rem;
+    background-color: #f2f2f2;
+    .personal {
+      background-color: #007fff;
+      color: #fff;
+    }
+
+    .professional {
+      background-color: #4b9cd3;
+      color: #fff;
+    }
+
+    .business {
+      background-color: #0a2351;
+      color: #fff;
+    }
+
+    .pricing-heading {
+      padding: 3rem 0;
+
+      .featured span {
+        margin-left: 0.4rem;
+      }
+    }
+
+    .pricing-body {
+      padding: 0.5rem;
+      .pricing-ul {
+        list-style-type: none;
+
+        .pricing-list {
+          margin: 1rem 0;
+          position: relative;
+        }
+        .pricing-list::before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f058";
+          position: absolute;
+          font-size: 1.2rem;
+          left: -1.7rem;
+          margin-top: -1px;
+          color: #3457d5;
+        }
+      }
+    }
+
+    .pricing-footer {
+      padding: 0.5rem;
+      .btn {
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+        color: #fff;
+        border: none;
+        outline: none;
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+}

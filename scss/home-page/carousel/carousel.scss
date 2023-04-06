@@ -1,0 +1,24 @@
+.carousel-section {
+  border-top: 1px solid #dddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .carosule-img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0px;
+    transform: translateY(30px);
+
+    .carousel-indicators-item {
+      height: 15px;
+      width: 15px;
+      border: 1px solid gray;
+      background-color: aliceblue;
+      border-radius: 50%;
+    }
+  }
+}

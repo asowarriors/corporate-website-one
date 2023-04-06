@@ -1,0 +1,29 @@
+.specification-section {
+  border-top: 1px solid #dddd;
+
+  .specs {
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+    list-style-type: none;
+  }
+
+  .specs li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .specs li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    position: absolute;
+    left: -3rem;
+    margin-top: -2px;
+    font-size: 1.8rem;
+    color: #3457d5;
+  }
+
+  .brand-img {
+    background-color: transparent;
+  }
+}

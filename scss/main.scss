@@ -1,0 +1,29 @@
+// import bootstrap sass file
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// All Partials File
+@import "../scss/home-page/nav/navigation.scss";
+@import "../scss/partials/mixin.scss";
+@import "../scss/home-page/footer/footer.scss";
+@import "../scss/home-page/hero/hero.scss";
+@import "../scss/home-page/feature/feature.scss";
+@import "../scss/home-page/carousel/carousel.scss";
+@import "../scss/home-page/cta-section/cta.scss";
+@import "../scss/home-page/specification/specification.scss";
+@import "./pricing/pricing.scss";
+
+// custom code start
+body {
+  background-color: #fff;
+}
+
+.extra-margin {
+  @include forParagraph;
+  height: 60vh;
+}
+
+.section-border {
+  border-top: 1px solid #dddd;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
